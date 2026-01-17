@@ -2,7 +2,7 @@
 
 > Because Fujitsu decided their $400 scanner should only work with their proprietary software that they abandoned in 2020. Cool. Cool cool cool.
 
-Turn your "obsolete" ScanSnap iX500 into a network scanner that actually works with everything — macOS, Windows, iOS, Android. No ScanSnap Home. No cloud accounts. No nonsense.
+Turn your "obsolete" ScanSnap iX500 into a network scanner that actually works with everything -- macOS, Windows, iOS, Android. No ScanSnap Home. No cloud accounts. No nonsense.
 
 ## What This Does
 
@@ -10,9 +10,9 @@ Takes a perfectly good scanner that Fujitsu left for dead and resurrects it as a
 
 ## Requirements
 
-- Ubuntu 24.04 Server (or mass-produce your own kernel modules, I'm not your dad)
+- Ubuntu 24.04 Server 
 - Fujitsu ScanSnap iX500
-- A USB cable (remember those?)
+- A USB cable 
 - 10 minutes of your time
 
 ## Quick Start
@@ -23,6 +23,9 @@ cat instructions.md
 
 # For the "just make it work" crowd
 chmod +x install.sh && ./install.sh
+
+# For the brave
+claude "pull down this repo and run the install"
 ```
 
 ## The Catch
@@ -30,7 +33,7 @@ chmod +x install.sh && ./install.sh
 AirScan is great and all, but it doesn't expose every scanner option to your devices. Want duplex scanning from your iPhone? Too bad. Apple's scanning interface is... minimalist.
 
 **Workarounds included:**
-- SSH in and scan like it's 2005 (it works, don't judge)
+- SSH in and scan like it's 2005 (it works, but you'll have to scp your files off your server or set up a file server)
 - Run scanservjs in Docker for a proper web UI with all the bells and whistles
 
 ## Architecture
