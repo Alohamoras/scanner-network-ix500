@@ -1,0 +1,10 @@
+# Scanned documents
+*.tiff
+*.tif
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Test output
+test.*
